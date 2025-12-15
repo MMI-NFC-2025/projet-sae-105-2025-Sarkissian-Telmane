@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : SARKISSIAN
+- PRÉNOM : Telmane
+- GROUPE : C1
 - URL du site :
 - URL FIGMA :
