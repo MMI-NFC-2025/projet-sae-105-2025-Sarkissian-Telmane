@@ -1,0 +1,23 @@
+header {
+    background-color: var(--dark);
+    width: 395px;
+    height: 138px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 15px;
+    padding-bottom: 23px;
+}
+
+
+.menu-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-btn-img{
+    padding-bottom: 5px;
+}

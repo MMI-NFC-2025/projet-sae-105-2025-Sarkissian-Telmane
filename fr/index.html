@@ -19,17 +19,25 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <a href="/fr/index.html"><img src="../assets/icons/k.johnson logo.svg" alt="Logo K.Johnson"></a>
-        </div>
-        <div>
-            <button>
-                <img src="../assets/icons/menu.svg" alt="Menu button">
-            </button>
-        </div>
+    <header class="header">
+        <a class="header__link" href="/fr/index.html">
+            <img 
+            class="header__logo header__logo--light"
+            src="../assets/icons/k.johnson logo.svg" 
+            alt="Logo K.Johnson">
+        </a>
 
-        <nav class="menu">
+        <button 
+        class="header__menu menu-btn" 
+        aria-label="menu" 
+        aria-expanded="false">
+            <img 
+            class="menu-btn-img"
+            src="../assets/icons/menu.svg" 
+            alt="Menu button">
+        </button>
+
+        <nav class="header__menu menu" hidden>
             <ul class="menu__list u-list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="../fr/effet matilda.html">L'effet Matilda</a>
@@ -67,85 +75,89 @@
                     <a class="menu__link" href="../fr/contact.html">Contact</a>
                 </li>
             </ul>
-            <a href="../en/index.html">EN</a>            
+            <a class="lang-btn" href="../en/index.html">EN</a>            
         </nav>
     </header>
 
     <main>
         <div class="hero">
-            <img src="../assets/img/accueil/katherine accueil hero.avif" alt="Katherine Johnson à son poste">
-            <div>
-                <p>Elles ont calculé, inventé, découvert... Pourtant, leurs noms ont souvent été effacés. L’effet Matilda raconte cette
-                invisibilisation des femmes de science.</p>
-                <h1>Katherine Johnson</h1>
-                <h2>un nom effacé par l'effet Matilda</h2>
-            </div>
-            <button>Découvrez-en plus</button>
-            <img src="../assets/icons/arrow-bottom.svg" alt="flèche vers le bas" loading="lazy">
+            <img class="hero__img" src="../assets/img/accueil/katherine accueil hero.avif" alt="Katherine Johnson à son poste">
+                <p class="hero__intro">Elles ont calculé, inventé, découvert... Pourtant, leurs noms ont souvent été effacés. L’effet Matilda raconte cetteinvisibilisation des femmes de science.</p>
+                <h1 class="hero__title">Katherine Johnson</h1>
+                <h2 class="hero__subtitle">un nom effacé par l'effet Matilda</h2>
+            <button class="button__scroll">Découvrez-en plus</button>
+            <img class="arrow" src="../assets/icons/arrow-bottom.svg" alt="flèche vers le bas" loading="lazy">
         </div>
 
-        <div>
-            <img src="../assets/img/accueil/effet matlida.avif" alt="Effet Matilda" loading="lazy">
-            <h3>L’effet Matilda</h3>
-            <p>Qu'est-ce que l'Effet Matilda ? Origines, mécanismes et conséquences de ce phénomène qui invisibilise les femmes dans la
+        <div class="cadre__article">
+            <img class="cadre__article--image" src="../assets/img/accueil/effet matlida.avif" alt="Effet Matilda" loading="lazy">
+            <h3 class="cadre__article-title">L’effet Matilda</h3>
+            <p class="cadre__article-desc">Qu'est-ce que l'Effet Matilda ? Origines, mécanismes et conséquences de ce phénomène qui invisibilise les femmes dans la
             science.</p>
-            <a href="/fr/effet matilda.html">Lire</a>
+            <a class="cadre__article-btn" href="/fr/effet matilda.html">Lire</a>
         </div>
-        <div>
-            <img src="../assets/img/accueil/katherine johnson.avif" alt="Katherine Johnson" loading="lazy">
-            <h3>Katherine Johnson</h3>
-            <p>Découvrez le portrait de la mathématicienne dont les travaux ont été éclipsés. Son parcours, son combat et l'injustice
+        <div class="cadre__article">
+            <img class="cadre__article--image" src="../assets/img/accueil/katherine johnson.avif" alt="Katherine Johnson" loading="lazy">
+            <h3 class="cadre__article-title">Katherine Johnson</h3>
+            <p class="cadre__article-desc">Découvrez le portrait de la mathématicienne dont les travaux ont été éclipsés. Son parcours, son combat et l'injustice
             subie..</p>
-            <a href="/fr/katherine johnson.html">Lire</a>
+            <a class="cadre__article-btn" href="/fr/katherine johnson.html">Lire</a>
         </div>
-        <div>
-            <img src="../assets/img/accueil/ses contributions.avif" alt="Les contributions de Johnson" loading="lazy">
-            <h3>Ses Contributions</h3>
-            <p>Plongez au cœur des recherches, calculs et exploits de Katherine Johnson. Une explication simple de ses concepts
+        <div class="cadre__article">
+            <img class="cadre__article--image" src="../assets/img/accueil/ses contributions.avif" alt="Les contributions de Johnson" loading="lazy">
+            <h3 class="cadre__article-title">Ses Contributions</h3>
+            <p class="cadre__article-desc">Plongez au cœur des recherches, calculs et exploits de Katherine Johnson. Une explication simple de ses concepts
             complexes.</p>
-            <a href="/fr/ses contributions.html">Lire</a>
+            <a class="cadre__article-btn" href="/fr/ses contributions.html">Lire</a>
         </div>
-        <div>
-            <img src="../assets/img/accueil/femmes littérature.avif" alt="La littérature et les femmes de sciences" loading="lazy">
-            <h3>Les femmes de sciences dans la littérature</h3>
-            <p>De la fiction à la réalité : comment les œuvres littéraires représentent-elles les figures féminines scientifiques ?</p>
-            <a href="/fr/les femmes de sciences dans la littérature.html">Lire</a>
+        <div class="cadre__article">
+            <img class="cadre__article--image" src="../assets/img/accueil/femmes littérature.avif" alt="La littérature et les femmes de sciences" loading="lazy">
+            <h3 class="cadre__article-title">Les femmes de sciences dans la littérature</h3>
+            <p class="cadre__article-desc">De la fiction à la réalité : comment les œuvres littéraires représentent-elles les figures féminines scientifiques ?</p>
+            <a class="cadre__article-btn" href="/fr/les femmes de sciences dans la littérature.html">Lire</a>
         </div>
-        <div>
-            <img src="../assets/img/accueil/objet bu.avif" alt="Livre de la BU" loading="lazy">
-            <h3>Objet de la BU</h3>
-            <p>Un document unique issu de la BU. Découvrez un extrait de cet ouvrage clé en lien avec notre Matilda.</p>
-            <a href="/fr/objet bu.html">Lire</a>
+        <div class="cadre__article">
+            <img class="cadre__article--image" src="../assets/img/accueil/objet bu.avif" alt="Livre de la BU" loading="lazy">
+            <h3 class="cadre__article-title">Objet de la BU</h3>
+            <p class="cadre__article-desc">Un document unique issu de la BU. Découvrez un extrait de cet ouvrage clé en lien avec notre Matilda.</p>
+            <a class="cadre__article-btn" href="/fr/objet bu.html">Lire</a>
         </div>
-        <div>
-            <img src="../assets/img/accueil/film.avif" alt="Film et Séries" loading="lazy">
-            <h3>Films et Séries</h3>
-            <p>Quand le cinéma rend justice ; Ces productions audiovisuelles servant d’outil de réhabilitation pour les femmes
+        <div class="cadre__article">
+            <img class="cadre__article--image" src="../assets/img/accueil/film.avif" alt="Film et Séries" loading="lazy">
+            <h3 class="cadre__article-title">Films et Séries</h3>
+            <p class="cadre__article-desc">Quand le cinéma rend justice ; Ces productions audiovisuelles servant d’outil de réhabilitation pour les femmes
             scientifiques oubliées de l'Histoire.</p>
-            <a href="/fr/films et séries.html">Lire</a>
+            <a class="cadre__article-btn" href="/fr/films et séries.html">Lire</a>
         </div>
     </main>
 
-    <footer>
-        <img src="../assets/icons/k.johnson logo noir footer.svg" alt="" loading="lazy">
-        <img src="../assets/icons/mmi.svg" alt="" loading="lazy">
-        <div>
-            <ul>
-                <li><a href="/fr/à propos.html">À propos</a></li>
-                <li><a href="/fr/autres projets">Autres projets Matilda</a></li>
-                <li><a href="/fr/contact">Contact</a></li>
-                <li><a href="/fr/glossaire">Glossaire</a></li>
+    <footer class="container__footer">
+        <div class="footer">
+            <div class="footer__logo">
+                <img src="../assets/icons/k.johnson logo noir footer.svg" alt="" loading="lazy">
+                <img src="../assets/icons/mmi.svg" alt="" loading="lazy">
+            </div>
+
+            <div class="separation"></div>
+
+            <ul class="footer__list u-list-unstyled">
+                <li class="footer__item"><a class="footer__link" href="/fr/à propos.html">À propos</a></li>
+                <li class="footer__item"><a class="footer__link" href="/fr/autres projets">Autres projets Matilda</a></li>
+                <li class="footer__item"><a class="footer__link" href="/fr/contact">Contact</a></li>
+                <li class="footer__item"><a class="footer__link" href="/fr/glossaire">Glossaire</a></li>
             </ul>
+
+            <div class="footer__social">
+                <img class="footer__social-logo" src="../assets/icons/réseaux sociaux/facebook.svg" alt="Facebook" loading="lazy">
+                <img class="footer__social-logo" src="../assets/icons/réseaux sociaux/youtube.svg" alt="Youtube" loading="lazy">
+                <img class="footer__social-logo" src="../assets/icons/réseaux sociaux/instagram.svg" alt="Instagram" loading="lazy">
+            </div>
         </div>
-        <div>
-            <img src="../assets/icons/réseaux sociaux/facebook.svg" alt="Facebook" loading="lazy">
-            <img src="../assets/icons/réseaux sociaux/youtube.svg" alt="Youtube" loading="lazy">
-            <img src="../assets/icons/réseaux sociaux/instagram.svg" alt="Instagram" loading="lazy">
-        <div>
-            <p>© projet réalisé en 2025 dans le cadre d’un exercice pédagogique au 
-                <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"> département MMI de Montbéliard</a>
+        <div class="mentions">
+            <p class="mentions__text">© projet réalisé en 2025 dans le cadre d’un exercice pédagogique au 
+                <a class="mentions__text mentions__link" href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"> département MMI de Montbéliard</a>
             </p>
-            <p>Telmane Sarkissian C1 - telmane.sarkissian@edu.univ-fcomte.fr</p>
+            <p class="mentions__auteur">Telmane Sarkissian C1 - telmane.sarkissian@edu.univ-fcomte.fr</p>
         </div>
     </footer>
 </body>
