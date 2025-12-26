@@ -27,7 +27,7 @@
     font-size: var(--text-base);
 }
 
-.separation {
+.separation__footer {
     width: 100%;
     height: 1px;
     background-color: var(--dark);
@@ -53,6 +53,7 @@ ul {
 .mentions__text {
     font-family: Mulish;
     font-size: var(--text-small);
+    font-weight: 700;
     color: var(--orange);
     padding-top: 13px;
 }
@@ -64,7 +65,9 @@ ul {
 .mentions__auteur {
     font-family: Mulish;
     font-size: var(--text-small);
+    font-weight: 700;
     color: var(--orange);
     padding-top: 8px;
     padding-bottom: 20px;
+    margin: 0;
 }
