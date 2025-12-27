@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 41px;
+    padding: 40px 0px;
     
 }
 
@@ -34,14 +35,11 @@
     margin-top: 7px;
 }
 
-ul {
-    padding: 0;
-}
-
 .footer__social {
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding-bottom: 10px;
 }
 
 .mentions {
