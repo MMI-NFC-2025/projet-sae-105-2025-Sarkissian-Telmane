@@ -178,6 +178,7 @@ ul {
     font-size: var(--text-base);
     color: var(--dark);
     margin: 0;
+    font-weight: 400;
 }
 
 .article__subtitle {
