@@ -230,3 +230,35 @@ ul {
     height: 1px;
     background-color: var(--dark);
 }
+
+.cadre__film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 363px;
+    height: 534px;
+    background: linear-gradient(var(--dark), var(--blue) 80%);
+    border-radius: 15px;
+}
+
+.cadre__film-img {
+    width: 301px;
+    height: 402px;
+    margin-top: 44px;
+}
+
+.film__name {
+    font-family: Mulish;
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--blue);
+    margin-top: 10px;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.film__info {
+    color: var(--blue);
+    font-weight: 700;
+}

@@ -1,3 +1,12 @@
+.menu-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-btn-img {
+    padding-bottom: 5px;
+}
+
 .cta__button-scroll {
     background-color: var(--orange);
     border: none;
@@ -10,6 +19,7 @@
 }
 
 .cadre__article-btn {
+    border: none;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -26,4 +36,17 @@
     right: 61px;
     bottom: 19px;
     z-index: 50;
+}
+
+.cadre__film-btn {
+    border: none;
+    background-color: var(--dark);
+    font-family: Mulish;
+    font-size: var(--text-base);
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--beige);
+    padding: 7px 21px;
+    border-radius: 5px;
+    margin-top: 27px;
 }
