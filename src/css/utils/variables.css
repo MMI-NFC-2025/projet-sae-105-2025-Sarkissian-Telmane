@@ -11,12 +11,13 @@
   /* number */
   --text-small: 0.625rem;
   --text-base: 1rem;
-  --text-h4: 1.25rem;
-  --text-h3: 1.5rem;
-  --text-h2: 1.75rem;
-  --text-h1: 2.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.75rem;
+  --text-4xl: 2rem;
+  --text-5xl: 2.125rem;
+  --text-6xl: 2.5rem;
   /* string */
   --font-sans: Mulish;
   --font-serif: Libre Baskerville;
-
 }

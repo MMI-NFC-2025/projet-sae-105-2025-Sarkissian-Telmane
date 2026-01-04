@@ -13,3 +13,11 @@ header {
     padding: 0 15px;
     padding-bottom: 23px;
 }
+
+.logo {
+    font-family: Gloock;
+    font-size: var(--text-6xl);
+    color: white;
+    font-weight: normal;
+}
+

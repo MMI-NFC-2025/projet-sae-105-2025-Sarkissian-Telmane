@@ -9,7 +9,18 @@
 .footer__logo {
     display: flex;
     justify-content: space-between;
-    padding-top: 26px;
+    padding-top: 31px;
+}
+
+.logo__mmi {
+    width: 45px;
+    height: 32px;
+}
+
+.logo--dark {
+    color: var(--dark);
+    margin: 0;
+    font-size: var(--text-4xl);
 }
 
 .footer__list {
