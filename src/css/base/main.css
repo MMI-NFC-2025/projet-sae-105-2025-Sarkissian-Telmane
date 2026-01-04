@@ -4,7 +4,9 @@ p {
     margin: 0;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     margin: 0;
 }
 
@@ -44,7 +46,7 @@ ul {
 
 .hero__intro {
     font-family: Mulish;
-    font-size: var(--text-base);   
+    font-size: var(--text-base);
     padding: 20px 0px;
 }
 
@@ -94,7 +96,7 @@ ul {
 .cadre__article-image {
     width: 301px;
     height: 450px;
-    border-radius: 15px;    
+    border-radius: 15px;
 }
 
 .cadre__article-content {
@@ -162,7 +164,7 @@ ul {
     color: var(--blue);
     text-align: center;
     margin: 0;
-    padding: 25px 0px;
+    padding: 25px 15px;
 }
 
 .article__content {
@@ -227,15 +229,19 @@ ul {
     margin-left: 132px;
     margin-top: 35px;
     width: 99px;
-    height: 0.8px;
+    height: 1px;
     background-color: var(--dark);
+}
+
+.container__film {
+    display: flex;
+    justify-content: center;
 }
 
 .cadre__film {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     width: 363px;
     height: 534px;
     background: linear-gradient(var(--dark), var(--blue) 80%);
@@ -261,4 +267,47 @@ ul {
 .film__info {
     color: var(--blue);
     font-weight: 700;
+}
+
+.separation__article--matilda {
+    margin-bottom: 35px;
+}
+
+.cadre__matilda {
+    width: 315px;
+    height: 366px;
+    background: linear-gradient(var(--dark), var(--blue) 80%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.cadre__matilda-img {
+    width: 239px;
+    height: 306px;
+}
+
+.matilda__name {
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.matilda__info {
+    text-align: center;
+    padding: 0;
+}
+
+.container__line {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 15px;
+    height: 200px;
 }
