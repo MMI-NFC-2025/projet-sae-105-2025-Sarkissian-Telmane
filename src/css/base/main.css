@@ -152,7 +152,7 @@ ul {
 
 .article__hero-gradient {
     position: absolute;
-    bottom: 85px;
+    bottom: 116px;
     width: 100%;
     height: 405px;
     background: linear-gradient(to bottom, transparent 0%, rgba(var(--orange-rgb), 0.1), rgba(var(--orange-rgb), 0.6) 100%);
@@ -170,6 +170,8 @@ ul {
 
 .article__content {
     padding-inline: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .space {
@@ -203,6 +205,7 @@ ul {
     font-style: oblique;
     font-weight: 300;
     color: var(--blue);
+    padding-top: 7px;
 }
 
 .article__citation {
@@ -226,8 +229,12 @@ ul {
     height: 100px;
 }
 
+.container__separation {
+    display: flex;
+    justify-content: center;
+}
+
 .separation__article {
-    margin-left: 132px;
     margin-top: 35px;
     width: 99px;
     height: 1px;
@@ -270,8 +277,11 @@ ul {
     font-weight: 700;
 }
 
-.separation__article--matilda {
-    margin-bottom: 35px;
+.container__matilda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cadre__matilda {
@@ -282,7 +292,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 24px;
 }
 
 .cadre__matilda-img {
@@ -301,14 +310,17 @@ ul {
     padding: 0;
 }
 
-.container__line {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.separation__article--matilda {
+    margin-bottom: 35px;
 }
 
 .line {
     width: 15px;
     height: 200px;
+    margin: 20px 0px;
 }
+
+.separation__article--2 {
+    margin-bottom: 7px;
+}
+
