@@ -324,3 +324,23 @@ ul {
     margin-bottom: 7px;
 }
 
+.article__text--projects-intro{
+    text-align: center  ;
+}
+
+.cadre__projet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height: 117px;
+    background: linear-gradient(var(--dark), var(--blue) 80%);
+    border-radius: 15px;
+}
+
+.article__text--projet {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
