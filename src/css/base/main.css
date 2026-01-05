@@ -328,7 +328,13 @@ ul {
     text-align: center  ;
 }
 
+.container__projet {
+    display: flex;
+    justify-content: center;
+}
+
 .cadre__projet {
+    margin-top: 47px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -337,10 +343,18 @@ ul {
     height: 117px;
     background: linear-gradient(var(--dark), var(--blue) 80%);
     border-radius: 15px;
+    gap: 18px;
 }
 
 .article__text--projet {
     text-align: center;
     color: white;
     font-weight: 700;
+}
+
+.cadre__projet--link {
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
 }
