@@ -1,14 +1,17 @@
 .cadre__article {
     position: relative;
     display: flex;
-    justify-content: center;
-    margin: 100px 0px;
+    width: 301px;
+    height: 450px;
+    margin: 100px auto;
 }
 
 .cadre__article-image {
-    width: 301px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 15px;
+    display: block;
 }
 
 .cadre__article-content {
@@ -39,11 +42,10 @@
 
 .gradient__orange {
     position: absolute;
+    inset: 0;
     background: linear-gradient(transparent, var(--orange) 80%);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    width: 301px;
-    height: 450px;
 }
 
 .separation__cadre {
