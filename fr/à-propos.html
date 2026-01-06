@@ -21,15 +21,16 @@
 
 <body>
     <header class="header">
+    
         <a class="header__link" href="/fr/index.html">
             <h1 class="logo">K. Johnson</h1>
         </a>
-    
         <button class="header__menu menu-btn" aria-label="menu" aria-expanded="false">
             <img class="menu-btn-img" src="../assets/icons/menu.svg" alt="Menu button">
         </button>
     
-        <nav class="header__menu menu">
+        <nav class="header__menu menu" hidden>
+            <div class="separation__menu"></div>
             <ul class="menu__list u-list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="../fr/effet-matilda.html">L'effet Matilda</a>
@@ -54,21 +55,29 @@
                     <a class="menu__link" href="../fr/frise.html">Frise Chronologique des Matilda</a>
                 </li>
             </ul>
-            <ul class="menu__sub-list u-list-unstyled">
-                <li class="menu__sub-item">
-                    <a class="menu__link" href="../fr/glossaire.html">Glossaire</a>
-                </li>
-                <li class="menu__sub-item">
-                    <a class="menu__link" href="../fr/autres-projets.html">Autres projets Matilda</a>
-                </li>
-                <li class="menu__sub-item">
-                    <a class="menu__link" href="../fr/à-propos.html">À propos</a>
-                </li>
-                <li class="menu__sub-item">
-                    <a class="menu__link" href="../fr/contact.html">Contact</a>
-                </li>
-            </ul>
-            <a class="lang-btn" href="../en/index.html">EN</a>
+            <div class="container__separation">
+                <div class="separation__menu separation__menu--sub"></div>
+            </div>
+    
+            <div class="sub__list">
+                <ul class="menu__sub-list u-list-unstyled">
+                    <li class="menu__sub-item">
+                        <a class="menu__link" href="../fr/glossaire.html">Glossaire</a>
+                    </li>
+                    <li class="menu__sub-item">
+                        <a class="menu__link" href="../fr/autres-projets.html">Autres projets Matilda</a>
+                    </li>
+                    <li class="menu__sub-item">
+                        <a class="menu__link" href="../fr/à-propos.html">À propos</a>
+                    </li>
+                    <li class="menu__sub-item">
+                        <a class="menu__link" href="../fr/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a class="lang-btn" href="../en/index.html">
+                    <div class="lang">EN</div>
+                </a>
+            </div>
         </nav>
     </header>
 

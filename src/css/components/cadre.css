@@ -1,0 +1,167 @@
+.cadre__article {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.cadre__article-image {
+    width: 301px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.cadre__article-content {
+    position: absolute;
+    z-index: 1;
+    bottom: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadre__article-title {
+    font-family: Mulish;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    text-align: center;
+    max-width: 265px;
+    margin: 0;
+}
+
+.cadre__article-desc {
+    font-family: Mulish;
+    font-size: var(--text-small);
+    font-weight: 700;
+    padding: 9px 61px 52px 61px;
+    max-width: 271px;
+}
+
+.gradient__orange {
+    position: absolute;
+    background: linear-gradient(transparent, var(--orange) 80%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 301px;
+    height: 450px;
+}
+
+.separation__cadre {
+    position: absolute;
+    width: 271px;
+    height: 1px;
+    bottom: 62px;
+    background-color: var(--dark);
+}
+
+
+.container__film {
+    display: flex;
+    justify-content: center;
+}
+
+.cadre__film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 363px;
+    height: 534px;
+    background: linear-gradient(var(--dark), var(--blue) 80%);
+    border-radius: 15px;
+}
+
+.cadre__film-img {
+    width: 301px;
+    height: 402px;
+    margin-top: 44px;
+}
+
+.film__name {
+    font-family: Mulish;
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--blue);
+    margin-top: 10px;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.film__info {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+
+.container__matilda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre__matilda {
+    width: 315px;
+    height: 366px;
+    background: linear-gradient(var(--dark), var(--blue) 80%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre__matilda-img {
+    width: 239px;
+    height: 306px;
+}
+
+.matilda__name {
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.matilda__info {
+    text-align: center;
+    padding: 0;
+}
+
+.separation__article--matilda {
+    margin-bottom: 35px;
+}
+
+.line {
+    width: 15px;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.container__projet {
+    display: flex;
+    justify-content: center;
+}
+
+.cadre__projet {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height: 117px;
+    background: linear-gradient(var(--dark), var(--blue) 80%);
+    border-radius: 15px;
+    gap: 18px;
+}
+
+.article__text--projet {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.cadre__projet--link {
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
