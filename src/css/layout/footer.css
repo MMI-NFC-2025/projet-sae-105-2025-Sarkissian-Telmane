@@ -12,11 +12,6 @@
     padding-top: 31px;
 }
 
-.logo__mmi {
-    width: 45px;
-    height: 32px;
-}
-
 .logo--dark {
     color: var(--dark);
     margin: 0;

@@ -1,0 +1,54 @@
+.menu-btn-img {
+    padding: 0;
+}
+
+.logo__mmi {
+    width: 45px;
+    height: 32px;
+}
+
+.hero__img {
+    width: 100%;
+    display: block;
+}
+
+.cadre__article-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+.article__hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.article__img {
+    width: 100%;
+    padding-top: 27px;
+}
+
+.cadre__film-img {
+    width: 301px;
+    height: 402px;
+    margin-top: 44px;
+}
+
+.cadre__film-img {
+    width: 301px;
+    height: 402px;
+    margin-top: 44px;
+}
+
+.cadre__matilda-img {
+    width: 239px;
+    height: 306px;
+}
+
+.ba__film {
+    z-index: 500;
+    width: 100%;
+}

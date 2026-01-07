@@ -16,11 +16,6 @@ ul {
     position: relative;
 }
 
-.hero__img {
-    width: 100%;
-    display: block;
-}
-
 .gradient__dark {
     position: absolute;
     background: linear-gradient(transparent, var(--dark));
@@ -89,12 +84,6 @@ ul {
     width: 100%;
 }
 
-.article__hero-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 .article__hero-gradient {
     position: absolute;
     inset: 0;
@@ -135,11 +124,6 @@ ul {
     color: var(--blue);
     padding-top: 28px;
     padding-bottom: 20px;
-}
-
-.article__img {
-    width: 100%;
-    padding-top: 27px;
 }
 
 .no-scroll {
@@ -200,9 +184,4 @@ ul {
 
 .article__text--contact {
     text-align: center;
-}
-
-.ba__film {
-    z-index: 500;
-    width: 100%;
 }
