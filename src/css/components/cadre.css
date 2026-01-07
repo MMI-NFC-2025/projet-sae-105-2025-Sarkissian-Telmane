@@ -17,7 +17,7 @@
 .cadre__article-content {
     position: absolute;
     z-index: 1;
-    bottom: 19px;
+    bottom: 62px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,8 @@
     font-family: Mulish;
     font-size: var(--text-small);
     font-weight: 700;
-    padding: 9px 61px 52px 61px;
+    padding-top: 9px;
+    padding-inline: 15px;
     max-width: 271px;
 }
 
@@ -49,10 +50,9 @@
 }
 
 .separation__cadre {
-    position: absolute;
     width: 271px;
     height: 1px;
-    bottom: 62px;
+    margin-top: 5px;
     background-color: var(--dark);
 }
 
