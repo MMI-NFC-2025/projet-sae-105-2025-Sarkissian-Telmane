@@ -6,5 +6,5 @@
 - NOM : SARKISSIAN
 - PRÉNOM : Telmane
 - GROUPE : C1
-- URL du site :
-- URL FIGMA :
+- URL du site : https://k-johnson.telmane.fr/
+- URL FIGMA : https://www.figma.com/design/fVpbjor7kZTYxIEmYZbisz/Maquettes-projet-individuel---Telmane-SARKISSIAN?node-id=3721-165&t=04yOLS4KyI9Fx3Ru-1
