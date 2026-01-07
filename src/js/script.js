@@ -1,3 +1,5 @@
+// ouverture/fermeture du menu // 
+
 const toggle = document.querySelector(".menu-btn");
 const nav = document.querySelector(".menu");
 
@@ -12,12 +14,18 @@ if (toggle && nav) {
     });
 };
 
+
+// interraction bouton "découvrez-en plus" // 
+
 const scroll = document.querySelector(".cta__button-scroll")
 if (scroll) {
     scroll.addEventListener("click", () => {
         window.scroll({ top: 870, left: 0, behavior: "smooth", });
     });
 };
+
+
+// ouverture/fermeture des vidéos bande d'annonce //
 
 const buttons = document.querySelectorAll(".cadre__film-btn");
 const videos = document.querySelectorAll(".ba__film");
@@ -31,4 +39,16 @@ buttons.forEach((button, index) => {
         button.setAttribute("aria-expanded", String(!isOpen));
         video.hidden = isOpen;
     });
+});
+
+// animation pour l'ouverture/fermeture du menu //
+
+const menuBtn = document.querySelector(".menu-btn");
+const menu = document.querySelector(".menu");
+
+menuBtn.addEventListener("click", () => {
+    const isOpen = menuBtn.getAttribute("aria-expanded") === "true";
+
+    menuBtn.setAttribute("aria-expanded", String(!isOpen));
+    menu.classList.toggle("is-open");
 });
